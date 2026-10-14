@@ -8,6 +8,8 @@ This is an **unofficial educational approximation**, independently modelled from
 
 Four parts — left side, right side, seat, and backrest — were newly constructed in Blender from numerical profiles. No manufacturer CAD or existing mesh geometry was imported. The embedded synthetic wood textures and fallback rendering were made for this model.
 
+The model includes rear seat pegs and matching side-panel holes. Peg diameter 16 mm, projection approximately 24.5 mm, and hole diameter 17 mm are estimates from a [two-dimensional assembly drawing, page 2, step 1](https://admincms.carlhansen.com/globalassets/products/loungechairs/kk47000/ch410-assembling-instruction.pdf#page=2).
+
 Nominal overall dimensions are **420 × 300 × 470 mm**, with a **250 mm seat height**. Internal dimensions, curves, thicknesses, openings, and joints are estimates. This visual study is not a fabrication plan, verified assembly guide, structural assessment, or safety assessment.
 
 Independent modelling does not establish rights clearance, public-domain status, or permission to manufacture or commercially reproduce the original chair design. **No blanket open-source license is granted to the model or the referenced design.** Source publications and trademarks remain subject to their respective rights.
@@ -44,9 +46,9 @@ The source research is recorded in the supplied viewer, including evidence limit
 
 GitHub Pages serves `main` from the repository root. `.nojekyll` keeps the deployment a plain static site.
 
-The published `index.html` is the supplied `Peters_Chair_Independent_Viewer_EN_DA_v5.html`, with these expected values:
+The published `index.html` is the supplied `Peters_Chair_Independent_Viewer_EN_DA_v6.html`, with these expected values:
 
-- Size: 2,806,374 bytes
-- SHA-256: `8c437928d4816f22649032548aabfb76a251f0f9105f77a6fb6223555e74e2db`
+- Size: 4,334,963 bytes
+- SHA-256: `931787e742853de9904bce60706204c264e043571d8b48cdc305bfec3ea7b299`
 
 Validation covers JavaScript syntax, English / Danish translation consistency, timeline source mappings, embedded GLB decoding, geometry and texture integrity, and HTTPS delivery of the exact HTML. Browser visual rendering and interaction have not been verified in this publishing environment.
